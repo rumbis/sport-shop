@@ -42,16 +42,16 @@ Guest:
 - If he tries to leave a comment or add a product to the cart, a message will be written in red letters
 
 User logged in:
-• Can add products to the basket and order them
-• Can add comments on products
+- Can add products to the basket and order them
+- Can add comments on products
 
 Admin:
-• All characteristics of the logged-in user
-• Can delete comments
-• Can see all products, change them and add new ones
-• Can add new categories and modify them
-• Can see all orders and delete them
-• Can see all registered users
+- All characteristics of the logged-in user
+- Can delete comments
+- Can see all products, change them and add new ones
+- Can add new categories and modify them
+- Can see all orders and delete them
+- Can see all registered users
 Home page
 From the home page, we can open the shop section for a specific type:
 Man
@@ -63,32 +63,32 @@ Equipment
 Football
 Running
 Shop page
-• Products are rendered on this page.
-• Clicking on a specific product opens the page about the clicked product.
-• If a product is currently out of stock, the image will be paler and there will be a red crossed out circle in the corner and it will not be long target to add to the basket, a message will be printed that there are currently no products.
+- Products are rendered on this page.
+- Clicking on a specific product opens the page about the clicked product.
+- If a product is currently out of stock, the image will be paler and there will be a red crossed out circle in the corner and it will not be long target to add to the basket, a message will be printed that there are currently no products.
 
 Product page
-• On this page we have a toggle for preview description.
-• From this page, we add the product to the basket (if the user is logged in).
-• On this page comments for the product are left and displayed (also if the user is logged in), and if the field for comment is empty and trying to add a comment will  print an error to enter some text.
-• Even if the admin is logged in on this page, he can delete comments.
-• If the user is not logged in and tries to add a product to the cart, an error will be displayed.
-• Likewise if he tries to enter a comment
+- On this page we have a toggle for preview description.
+- From this page, we add the product to the basket (if the user is logged in).
+- On this page comments for the product are left and displayed (also if the user is logged in), and if the field for comment is empty and trying to add a comment will  print an error to enter some text.
+- Even if the admin is logged in on this page, he can delete comments.
+- If the user is not logged in and tries to add a product to the cart, an error will be displayed.
+- Likewise if he tries to enter a comment
 About
-• There is no functionality on this page. Just a picture and lorem text.
+- There is no functionality on this page. Just a picture and lorem text.
 
 Contact
-• Clicking on E-mail opens the e-mail for sending
-• Clicking on Call Us pops up a pop-up to select an application for a title
-• Google map is embedded
+- Clicking on E-mail opens the e-mail for sending
+- Clicking on Call Us pops up a pop-up to select an application for a title
+- Google map is embedded
 
 Cart
-• If the user is not logged in or the basket is empty, a cart image will be displayed with the inscription that the basket is empty
-• If the user is logged in and has something in the basket, all added products will be displayed.
-• The quantity of products can be reduced or increased (min: 1, max: how many pieces are in stock)
-• The product can be deleted from the basket
-• Total items and total price are calculated.
-• Clicking on checkout opens a form for filling in information about the shipment (name, surname, address, place, postal number, phone number).
+- If the user is not logged in or the basket is empty, a cart image will be displayed with the inscription that the basket is empty
+- If the user is logged in and has something in the basket, all added products will be displayed.
+- The quantity of products can be reduced or increased (min: 1, max: how many pieces are in stock)
+- The product can be deleted from the basket
+- Total items and total price are calculated.
+- Clicking on checkout opens a form for filling in information about the shipment (name, surname, address, place, postal number, phone number).
 Form validation
 
 1. All fields must be filled
@@ -97,21 +97,21 @@ Form validation
 
 If the field is not valid, the border will turn red.
 
-• If the order is confirmed, the product quantity is updated.
+- If the order is confirmed, the product quantity is updated.
 
 Admin
-• On this page are the paths to all the admin features listed above.
-• If someone who is not an admin tries to enter /admin in the path, which targets the admin page, they will be sent to the home page (/)
-• Also there is validation for all forms and entries. If one is not correct it will turn red.
+- On this page are the paths to all the admin features listed above.
+- If someone who is not an admin tries to enter /admin in the path, which targets the admin page, they will be sent to the home page (/)
+- Also there is validation for all forms and entries. If one is not correct it will turn red.
 
 Registration
 
-• Form for creating an account.
-• All fields must be filled
-• Email has email validation and if the entered email matches the existing one, an error will be printed.
-• Password must have at least 8 characters
-• The repeated password must match the password.
+- Form for creating an account.
+- All fields must be filled
+- Email has email validation and if the entered email matches the existing one, an error will be printed.
+- Password must have at least 8 characters
+- The repeated password must match the password.
 Log in
 
-• If the data does not match, an error will be printed.
-• When the user is logged in, it shows a thumbnail, his first and last name and a logout button.
+- If the data does not match, an error will be printed.
+- When the user is logged in, it shows a thumbnail, his first and last name and a logout button.
