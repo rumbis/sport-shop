@@ -36,10 +36,10 @@ There are 3 types of users on the site:
 1. Guest
 2. Logged in user
 3. Admin
-• When the user enters the login data, he can click to remember his login. Then it is placed in local storage. A those who do not click will be placed in session storage.
+- When the user enters the login data, he can click to remember his login. Then it is placed in local storage. A those who do not click will be placed in session storage.
 Guest:
-• does not have any possibility except to view products, read comments and view other available pages on the site.
-• If he tries to leave a comment or add a product to the cart, a message will be written in red letters
+- does not have any possibility except to view products, read comments and view other available pages on the site.
+- If he tries to leave a comment or add a product to the cart, a message will be written in red letters
 
 User logged in:
 • Can add products to the basket and order them
