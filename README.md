@@ -20,15 +20,15 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 Using technology
 Frontend:
-•Java Script (framework Vue)
-•HTML
-•CSS.
+- Java Script (framework Vue)
+- HTML
+- CSS.
 
 Backend:
-•NodeJS
+- NodeJS
 
 Base:
-•MySQL
+- MySQL
 The focus is on the frontend. The backend is as hollow as Swiss cheese. It serves only for communication with the base.
 For images in the database, I put only the name of the image and then set the path from the front. I didn't put in the binary since I haven't really researched it.
 About project (sport shop)
